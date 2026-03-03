@@ -15,37 +15,35 @@
     
     <style>
         :root {
-            --color-1: #355872; /* Warna utama/gelap */
-            --color-2: #7AAACE; /* Warna sekunder/medium */
-            --color-3: #9CD5FF; /* Warna aksen/terang */
-            --color-4: #F7F8F0; /* Warna background */
+            --color-1: #355872; 
+            --color-2: #7AAACE; 
+            --color-3: #9CD5FF; 
+            --color-4: #F7F8F0; 
         }
 
         html {
-            scroll-behavior: smooth; /* Efek scroll halus */
+            scroll-behavior: smooth; 
         }
 
         body {
             background-color: var(--color-4);
             color: var(--color-1);
-            font-family: 'Poppins', sans-serif; /* Menggunakan Poppins */
-            overflow-x: hidden; /* Mencegah scroll horizontal akibat animasi */
+            font-family: 'Poppins', sans-serif; 
+            overflow-x: hidden; 
         }
 
-        /* Umum */
         h1, h2, h3, h4, h5 {
             color: var(--color-1);
             font-weight: 700;
         }
         
         section {
-            padding: 100px 0; /* Spasi antar bagian lebih lega */
+            padding: 100px 0; 
         }
 
-        /* Navbar Custom */
         .navbar {
-            background-color: rgba(53, 88, 114, 0.95); /* Sedikit transparan */
-            backdrop-filter: blur(5px); /* Efek blur pada background navbar */
+            background-color: rgba(53, 88, 114, 0.95); 
+            backdrop-filter: blur(5px); 
             transition: all 0.3s ease;
         }
         .navbar-brand, .nav-link {
@@ -62,7 +60,6 @@
             box-shadow: none;
         }
 
-        /* Buttons Custom */
         .btn-custom {
             background-color: var(--color-2);
             color: var(--color-4);
@@ -79,7 +76,6 @@
             transform: translateY(-3px);
         }
 
-        /* Cards Style */
         .card {
             border: none;
             border-radius: 15px;
@@ -96,7 +92,6 @@
             object-fit: cover;
         }
 
-        /* List Group Custom */
         .list-group-item {
             border: none;
             border-left: 4px solid var(--color-2);
@@ -104,7 +99,6 @@
             border-radius: 0 10px 10px 0 !important;
         }
 
-        /* Contact Icons */
         .contact-icon {
             font-size: 1.5rem;
             color: var(--color-1);
@@ -123,7 +117,6 @@
             padding: 10px 20px;
         }
 
-        /* Footer */
         footer {
             background-color: var(--color-1);
             color: var(--color-4);
